@@ -1,0 +1,47 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top:5px;
+    text-align: center;
+    width: auto;
+}
+.container button{
+    padding:8px 0px; 
+    width:210px;
+    border:0px;
+    border-right:5px solid black;
+    border-left:5px solid black;
+    font-size: 19px;
+    transition: ease-in-out 0.4s;
+    font-weight: bold;
+    color:green;
+    &:hover{
+        width: 260px;
+        letter-spacing: 5px;
+        transition: ease-in-out 0.4s;
+    }
+}
+#meme_display{
+
+    width:auto;
+    object-fit: cover;
+}
+#meme_display img{
+    max-width: 80%;
+    height: 430px;
+    object-fit: cover;
+
+}
+.meme_container{
+    width: 80%;
+    margin:10px auto;
+    background-color: #F7EEEE;
+}
+.meme-author{
+    font-size: 17px;
+    font-weight: bold;
+}
